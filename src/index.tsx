@@ -33,7 +33,7 @@ export function handleActiveCampaignSubmit<T extends Record<string, any>>(data: 
       return
     }
 
-    fetch(`https://${subdomain}.activehosted.com/proc.php`, {
+    return fetch(`https://${subdomain}.activehosted.com/proc.php`, {
       method: 'POST',
       mode: 'no-cors',
       cache: 'no-cache',

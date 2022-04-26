@@ -1,6 +1,6 @@
 {
   "name": "active-campaign-react",
-  "version": "1.3.0",
+  "version": "1.4.0",
   "description": "Library that helps integrating Active Campaign Forms with React",
   "source": "src/index.tsx",
   "main": "./lib/active-campaign-react.cjs",
